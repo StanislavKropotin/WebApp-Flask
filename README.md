@@ -8,6 +8,9 @@ The user's balance is updated depending on the weather in the selected city
 To start the project you need:
 
 1)Set up a virtual environment
+
 2)Install dependencies by running the command (pip install -r requirements.txt)
+
 3)Follow the link http://127.0.0.1:5000
+
 4)Everything is ready - test it
