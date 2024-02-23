@@ -1,19 +1,13 @@
-Тестовое задание: Python Разработчик
-WebApp
-Создать веб приложение используя Flask
-При запуске приложения создается простая база данных SQLite, для управления списком пользователей(`users`) с полями(`id`, `username`, `balance`) с 5 пользователями и балансом от 5000 до 15000
-Напишите Python-класс `User`, который представляет пользователя и взаимодействует с базой данных для добавления, обновления и удаления пользователей и обновления их балансов
-Используя библиотеку `requests`, напишите функцию `fetch_weather(city)`, которая принимает на вход название города и возвращает текущую температуру в этом городе. Используйте любое открытое API для получения данных о погоде. Важно, вы можете использовать погрешность, температура меняется не чаще 10 минут
-Написать route для обновления баланса пользователя, как в большую, так и в меньшую сторону на сумму равную температуре воздуха в выбранном городе, принимающего параметры userId, city.
-Важным условием является то, что баланс пользователя не может быть отрицательным.
-Изменение баланса должно производиться в реальном времени, без использования очередей и отложенных задач.
+Test task: Python WebApp Developer Create a web application using Flask When the application starts, a simple SQLite database is created to manage a list of users (users) with fields (id, username, balance) with 5 users and a balance from 5000 to 15000 Write a Python class User , which represents a user and interacts with the database to add, update, and delete users and update their balances. Using the requests library, write a function fetch_weather(city) that takes as input the name of a city and returns the current temperature in that city. Use any open API to get weather data. Important, you can use the error, the temperature changes no more than 10 minutes Write a route to update the user’s balance, both up and down by an amount equal to the air temperature in the selected city, which accepts the parameters userId, city. An important condition is that the user’s balance cannot be negative. Balance changes should be made in real time, without the use of queues and pending tasks.
 
-Выполнено:
-1) Каждый раз при запуске файла app.py в БД создаются ещё 5 пользователей с указанным балансом
-2) Баланс пользователя обновляется в зависимости от погоды в выбранном городе
-   
-Чтобы запустить проект нужно:
-  1) Настроить виртуальное окружение
-  2) Устанавливаем зависимости выполнив команду (pip install -r requirements.txt)
-  3) Переходим по ссылке http://127.0.0.1:5000
-  4) Всё готово - тестируйте
+Done:
+
+Each time you run the app.py file, 5 more users with the specified balance are created in the database
+The user's balance is updated depending on the weather in the selected city
+
+To start the project you need:
+
+1)Set up a virtual environment
+2)Install dependencies by running the command (pip install -r requirements.txt)
+3)Follow the link http://127.0.0.1:5000
+4)Everything is ready - test it
